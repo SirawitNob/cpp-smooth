@@ -29,8 +29,10 @@ int main()
 {
     int A[] = {3, 7, 9, 10, 6, 5, 12, 4, 11, 2};
     int n = 10;
+    cout << "Lets do Bubble sort!" << endl;
     Bubble(A, n);
     for(int i = 0 ; i < n ; i++){
-        cout<<A[i]<<endl;
+        cout << A[i] << " ";
     }
+    cout << endl;
 }
